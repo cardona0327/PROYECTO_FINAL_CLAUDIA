@@ -1,0 +1,100 @@
+/* Estilo general para la sección de favoritos */
+.favorites-container {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorites-title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+.favorites-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #ff6f61;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.categoria {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.categoria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.categoria h5 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.categoria strong {
+    font-size: 1.5rem;
+    color: #ff6f61;
+}
+
+.categoria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carfav {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e55b50;
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-primary i,
+.btn-success i {
+    margin-right: 5px;
+}

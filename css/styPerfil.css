@@ -1,0 +1,86 @@
+.perfil-container {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 300px;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.perfil-foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddd;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Añade espacio debajo de la imagen en pantallas pequeñas */
+}
+
+.perfil-datos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.perfil-item {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.perfil-item span {
+  font-weight: bold;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .perfil-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .perfil-foto {
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+
+  .perfil-datos {
+      align-items: center;
+  }
+}
+
+input[type="submit"] {
+  display: block;
+  width: 200px; /* Asegúrate de que el ancho del botón coincida con el de la foto */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: auto;  /* Centro en el eje horizontal */
+  margin-right: auto; /* Centro en el eje horizontal */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.perfil-foto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+  
+
+  

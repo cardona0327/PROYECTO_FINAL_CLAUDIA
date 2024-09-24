@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(207, 255, 239);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    border: 2px solid #7ED0D8;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    border-radius: 5px;
+    background-color: #b9ebf0;
+    border: none;
+    padding: 5px 15px;
+    color: black;
+}
+

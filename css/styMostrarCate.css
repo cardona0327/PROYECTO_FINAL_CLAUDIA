@@ -1,0 +1,73 @@
+/* Estilo para la lista de categorías */
+.categoria-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  .categoria-item {
+      position: relative;
+      background-color: #f2f2f2; /* Fondo gris para el contenedor de categoría */
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px; /* Ajusta la altura del contenedor según tus necesidades */
+      position: relative;
+      margin-top: 10px;
+  }
+  
+  .categoria-titulo {
+      text-align: center; /* Centra el texto en la categoría */
+      margin: auto; /* Centra verticalmente el texto */
+  }
+  
+  .categoria-id {
+    color: #555;
+  }
+  
+  .categoria-fecha {
+    color: #999;
+    font-size: 12px;
+  }
+  /* .editar-btn {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+  } */
+   /* Estilo para botones bonitos */
+  /* Estilo para botones bonitos en esquina con fondo gris */
+  .categoria-item {
+      position: relative;
+      background-color: #f2f2f2; /* Fondo gris para el contenedor de categoría */
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  
+  .editar-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50; /* Color de fondo del botón */
+      border: none;
+      border-radius: 3px;
+  }
+  
+  .editar-btn:hover {
+      background-color: #e95224;
+  }
+  
+  .editar-btn:active {
+      background-color: #3e8e41;
+  }

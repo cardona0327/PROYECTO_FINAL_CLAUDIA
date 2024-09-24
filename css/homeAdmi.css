@@ -1,0 +1,11 @@
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+.header {
+    background-color: #7ED0D8;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+.footer{
+    background-color: #7ED0D8   ;
+    padding: auto;
+} 
+.social{
+    display: flex;
+    gap: 20px;
+}

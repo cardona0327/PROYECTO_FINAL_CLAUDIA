@@ -1,0 +1,92 @@
+ /* Estilos para el contenedor principal */
+ #informacion {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Título principal */
+#informacion h1 {
+    color: #333333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+#informacion h3 {
+    color: #555555;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Contenedor de botones */
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo para los botones */
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background-color: #007bff; /* Color primario */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Efectos hover y active */
+.btn:hover {
+    background-color: #0056b3; /* Color más oscuro */
+    transform: translateY(-5px); /* Efecto flotante */
+}
+
+.btn:active {
+    transform: translateY(0); /* Sin efecto cuando está presionado */
+}
+
+/* Diferentes colores para cada botón */
+.btn.eliminados {
+    background-color: #ff4d4d; /* Rojo */
+}
+.btn.eliminados:hover {
+    background-color: #cc0000;
+}
+
+.btn.registrados {
+    background-color: #28a745; /* Verde */
+}
+.btn.registrados:hover {
+    background-color: #1c7430;
+}
+
+.btn.actualizados {
+    background-color: #ffc107; /* Amarillo */
+}
+.btn.actualizados:hover {
+    background-color: #e0a800;
+}
+
+/* Estilos responsivos */
+@media (min-width: 768px) {
+    #container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .btn {
+        width: 30%;
+    }
+}

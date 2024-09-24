@@ -1,0 +1,56 @@
+/* Estilo para la tabla de favoritos */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #ff6f61; /* Color de fondo para el encabezado */
+    color: #fff; /* Color del texto */
+}
+
+
+.table .product-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.table .quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.table .quantity-input {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+}
+
+.table .btn-danger {
+    background-color: #ff4d4d; /* Color de fondo del botón eliminar */
+    border-color: #ff4d4d; /* Color del borde del botón eliminar */
+    color: #fff; /* Color del texto del botón eliminar */
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 14px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+/* Estilo para los íconos de corazón */
+.table .product-name::before {
+    content: '\f004'; /* Código del ícono de corazón (FontAwesome) */
+    font-family: 'Font Awesome 5 Free'; /* Fuente de FontAwesome */
+    font-weight: 900; /* Peso de la fuente para íconos */
+    color: #e70c9e; /* Color del corazón */
+    margin-right: 8px;
+}

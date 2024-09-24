@@ -1,0 +1,16 @@
+/*boton del carro y de favoritos*/
+.btn {
+  color: #7ED0D8;
+  background: white;
+  border: 1px solid #7ED0D8;
+}
+
+.btn:hover,
+.btn:focus {    
+  background: #ccf6fa;
+}
+
+
+
+
+/******************************/

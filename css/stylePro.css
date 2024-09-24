@@ -1,0 +1,68 @@
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categoria{ /*este hace parte del fondo de las imagenes*/
+    flex-basis: 30%;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #a7a4a4; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}
+
+.categoria img{/* esto es el tamaño de las imagenes*/
+    width: 80%; 
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.categoria p {/*este es para que las imagenes esten centradas*/
+    font-size: 10px;
+    margin: 5px;
+}
+
+.categoria strong {/*color y tamaño de las letras*/
+    font-size: 20px;
+    color: red;
+}
+
+.custom-button {/*boton de compra y favoritos*/
+    background-color: #7ED0D8;
+    color: #fff;
+    padding: 8px 8px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.custom-button i {/*espacio entre el icono y las letras*/
+    margin-right: 5px;
+}
+
+.producto img{
+    transition: transform 0.1s, filter 0.1s;
+}
+
+.producto img:hover{
+    transform:scale(1.1) ;/*agranda la imagen*/
+    background-color: #7ED0D8;
+}
+
+/*************************************************/
+
+.botones .usuario {/*espacio entre los botones*/
+    display: flex;
+    gap: 10px;
+}
+/*estilos para los selectores de tallas y cololres de los zaptos
+*/
+

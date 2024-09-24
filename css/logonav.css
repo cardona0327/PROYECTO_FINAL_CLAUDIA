@@ -1,0 +1,32 @@
+/* Estilos para el logo en el navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 4em; /* Tamaño grande para las siglas */
+    color: black; /* Color blanco para las siglas */
+    font-weight: bold; /* Negrita para las siglas */
+    margin: 0; /* Elimina el margen para ajustar mejor el espacio */
+    letter-spacing: 5px; /* Espacio entre letras */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra para un efecto 3D */
+    margin-right: 10px; /* Espacio entre las siglas y el subtítulo */
+}
+
+.logo-subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em; /* Tamaño menor para el subtítulo */
+    color: black; /* Color blanco para el subtítulo */
+    font-weight: normal; /* Peso normal para el subtítulo */
+    margin: 0; /* Elimina el margen para ajustar mejor el espacio */
+    text-transform: uppercase; /* Convierte a mayúsculas para un efecto más uniforme */
+    letter-spacing: 1px; /* Espacio entre letras */
+}

@@ -1,0 +1,68 @@
+/* Estilo general para el contenedor del formulario */
+#categoria {
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* Estilo para el título del formulario */
+#categoria h2 {
+  color: #6c1d9a; /* Color morado */
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilo para los grupos de formulario */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo para las etiquetas de los campos */
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+.form-group input[type="number"],
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Estilo para el botón de envío */
+#b_cate {
+  background: #6c1d9a; /* Color morado */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#b_cate:hover {
+  background: #5a148a; /* Color morado más oscuro para el hover */
+}
+
+#b_cate:focus {
+  outline: none;
+}
+
+/* Estilo para los campos de entrada cuando están en foco */
+.form-group input:focus {
+  border-color: #6c1d9a; /* Color morado */
+  box-shadow: 0 0 5px rgba(108, 29, 154, 0.3); /* Sombra morada */
+}

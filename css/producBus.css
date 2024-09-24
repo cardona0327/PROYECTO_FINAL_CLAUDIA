@@ -1,0 +1,38 @@
+.product-container {
+    margin: 20px; 
+    border: 2px solid black;
+    background-color: white; /* Cambié el color del borde a un azul más vibrante */
+    border-radius: 15px; /* Bordes más sutiles */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Añadí transición de sombra */
+    width: 600px;
+    text-align: center;
+}
+
+.product-container:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra más intensa al pasar el mouse */
+}
+
+.product-container img {
+    width: 100%;
+    max-width: 300px; /* Mantener el tamaño máximo */
+    border-radius: 10px; /* Bordes redondeados en la imagen */
+    margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+.no-results {
+    text-align: center;
+    margin: 50px auto; /* Centrar horizontalmente */
+    padding: 30px; /* Aumentar el espaciado interno */
+    border: 2px solid #dc3545; /* Borde rojo para destacar */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para contraste */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.no-results h2 {
+    font-size: 1.8em; /* Aumentar tamaño de fuente para mayor impacto */
+    margin-bottom: 10px;
+    color: #dc3545; /* Color del texto del encabezado */
+}
