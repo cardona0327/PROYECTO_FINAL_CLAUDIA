@@ -364,7 +364,7 @@ CREATE TABLE `tb_likes` (
 
 LOCK TABLES `tb_likes` WRITE;
 /*!40000 ALTER TABLE `tb_likes` DISABLE KEYS */;
-INSERT INTO `tb_likes` VALUES (35,98,911,'like'),(37,43,911,'like'),(38,18,911,'like');
+INSERT INTO `tb_likes` VALUES (35,98,911,'like');
 /*!40000 ALTER TABLE `tb_likes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -671,4 +671,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-09-23 20:32:08
+-- Dump completed on 2024-09-23 20:42:26
